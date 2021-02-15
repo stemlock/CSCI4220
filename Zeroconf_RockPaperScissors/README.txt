@@ -1,10 +1,10 @@
-hw2.out:
+zero_conf.out:
 Authors:
 Yang Li - liy38
 Sam Temlock - temloo
 
 Features:
-Implements the a Zeroconf server that handles a basic “Rock Paper Scissors” (RPS) game simulation between two clients. Server prompts player for name and RPS choice, and displays to each client who the winner was.
+Implements a Zeroconf server that handles a basic “Rock Paper Scissors” (RPS) game simulation between two clients. Server prompts player for name and RPS choice, and displays to each client who the winner was.
 
 
 Notes:

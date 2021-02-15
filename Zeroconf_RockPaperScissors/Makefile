@@ -14,5 +14,5 @@ OBJ = zeroconf_server.c
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 ##This makes the hw2.out file by compiling the object files
-hw2.out: $(OBJ)
+zero_conf.out: $(OBJ)
 	$(CC) $(OBJ) -o $@ $(CFLAGS)
