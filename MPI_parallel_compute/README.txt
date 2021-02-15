@@ -1,4 +1,4 @@
-hw3.out:
+mpi_primes.out:
 Authors:
 Yang Li - liy38
 Sam Temlock - temloo

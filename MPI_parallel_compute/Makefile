@@ -13,6 +13,6 @@ OBJ = mpi_primes.c
 %.o: %.c
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-##This makes the hw2.out file by compiling the object files
-hw4.out: $(OBJ)
+##This makes the mpi_primes.out file by compiling the object files
+mpi_primes.out: $(OBJ)
 	$(CC) $(OBJ) -o $@ $(CFLAGS)
