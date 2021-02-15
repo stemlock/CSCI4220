@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -Wall -Werror -pthread -std=gnu++11
-OBJ = hw3.cpp IRCServerClasses.cpp
+OBJ = IRC_chat.cpp IRCServerClasses.cpp
 
 #This is the rule to make object files by compile them with their respective *.c file
 #Only useful if you have multiple object files to compile.
@@ -13,6 +13,6 @@ OBJ = hw3.cpp IRCServerClasses.cpp
 %.o: %.c
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-##This makes the hw2.out file by compiling the object files
-hw3.out: $(OBJ)
+##This makes the IRC_chat.out file by compiling the object files
+IRC_chat.out: $(OBJ)
 	$(CC) $(OBJ) -o $@ $(CFLAGS)

@@ -1,10 +1,10 @@
-hw3.out:
+IRC_chat.out:
 Authors:
 Yang Li - liy38
 Sam Temlock - temloo
 
 Features:
-For HW3, we implemented a CRI server that serves as a chat service between both IPv4 and IPv6 clients. Within the server, there can be multiple users as well as multiple channels that are supported. The protocol allows users to implement the following commands: 
+We implemented a IRC server that serves as a chat service between both IPv4 and IPv6 clients. Within the server, there can be multiple users as well as multiple channels that are supported. The protocol allows users to implement the following commands: 
 • USER
 • LIST
 • JOIN
